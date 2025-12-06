@@ -9,9 +9,9 @@ console.log("LIVEKIT_URL before override:", process.env.LIVEKIT_URL);
 console.log("LIVEKIT_API_SECRET set before override:", !!process.env.LIVEKIT_API_SECRET);
 
 // 🔒 Hard‑set the values here to avoid any .env / dotenvx confusion
-process.env.LIVEKIT_URL = "wss://car-service-centre-rpropqdn.livekit.cloud";
-process.env.LIVEKIT_API_KEY = "APIZudiDipxWU32";
-process.env.LIVEKIT_API_SECRET = "DPim3OMeCn3zWOe5OJxZwYfm3R9I0ypvzEVYxSt6eWaC";
+process.env.LIVEKIT_URL = "";
+process.env.LIVEKIT_API_KEY = "";
+process.env.LIVEKIT_API_SECRET = "";
 
 console.log("LIVEKIT_API_KEY after override:", process.env.LIVEKIT_API_KEY);
 console.log("LIVEKIT_URL after override:", process.env.LIVEKIT_URL);
